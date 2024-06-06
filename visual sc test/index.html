@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">To-Do List</h1>
+        <div class="input-group mb-3">
+            
+            <input type="text" id="new-task" class="form-control" placeholder="Add a new task">
+            
+            <button id="add-task-button" class="btn btn-success">Add</button>
+        </div>
+        
+        <ul id="task-list" class="list-group"></ul>
+        <h2 class="mt-5">Data from API</h2>
+        
+        <ul id="api-data-list" class="list-group"></ul>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
